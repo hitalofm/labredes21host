@@ -5,7 +5,7 @@
 ## Docker básico
 construir uma aplicação com 3 serviços: Monitor, servidor tcp e servidor apache.
 
-Monitor: [Presente em outro repositório](https://github.com/hitalofm/labredes21). e gera testes de ping, DNS e Getrequest.
+Monitor: [Presente em outro repositório](https://github.com/hitalofm/labredes21). Gera testes de ping, DNS e Getrequest.
 server: Salva os testes em um arquivo html.
 Apache: cria um http server e mostrar os testes.
 
