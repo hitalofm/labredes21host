@@ -3,10 +3,10 @@
 ## Projeto final labredes2021 server tcp e apache
 
 ## Docker básico
-construir uma aplicação com 3 serviços: Monitor, servidor tcp e servidor apache.
+Construir uma aplicação com 3 serviços: Monitor, servidor tcp e servidor apache.
 
 Monitor: [Presente em outro repositório](https://github.com/hitalofm/labredes21). Gera testes de ping, DNS e Getrequest.
-server: Salva os testes em um arquivo html.
+Server: Salva os testes em um arquivo html.
 Apache: cria um http server e mostrar os testes.
 
 ## Executando o container server tcp e apache:
