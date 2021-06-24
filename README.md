@@ -11,4 +11,6 @@ Apache: cria um http server e mostrar os testes.
 
 ## Executando o container server tcp e apache:
 
-- Comando para rodar o container monitor aqui
+- sudo docker run --rm -p 8081:8081 -v "$(pwd):/app/www" --name=tcpserver labredes21/labredes21server python3 server.py 8081
+
+- sudo docker run -it --rm --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
